@@ -64,7 +64,6 @@ jobs:
       - run:
           name: Run client.jar
           command: java -jar client.jar
-
 workflows:
   run-parallel-jars:
     jobs:
